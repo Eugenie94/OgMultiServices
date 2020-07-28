@@ -1,0 +1,427 @@
+
+.pourquoiOG {   /*gros titre pourquoi OG multi services */
+    font-family: roboto;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 770px){  /* responsive titre pourquoiog*/
+    .pourquoiOG {
+    margin-bottom: 10%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 305px){  /* same*/
+    .pourquoiOG {
+    font-size: 29.5px;
+    margin-top: -7%;
+    }
+}
+
+
+@media screen and (min-width: 305px) and (max-width: 310px){  /* same*/
+    .pourquoiOG {
+    font-size: 30px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 310px) and (max-width: 315px){  /* same*/
+    .pourquoiOG {
+    font-size: 30.5px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 315px) and (max-width: 320px){  /* same*/
+    .pourquoiOG {
+    font-size: 31px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 325px){  /* same*/
+    .pourquoiOG {
+    font-size: 31.5px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width: 330px){  /* same*/
+    .pourquoiOG {
+    font-size: 32px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 335px){  /* same*/
+    .pourquoiOG {
+    font-size: 32.5px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 335px) and (max-width: 340px){  /* same*/
+    .pourquoiOG {
+    font-size: 33px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 345px){  /* same*/
+    .pourquoiOG {
+    font-size: 33.5px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 345px) and (max-width: 350px){  /* same*/
+    .pourquoiOG {
+    font-size: 34px;
+    margin-top: -7%;
+    }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 360px){  /* same*/
+    .pourquoiOG {
+    font-size: 34.5px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 380px){  /* same*/
+    .pourquoiOG {
+    font-size: 35px;
+    margin-top: -7%;
+    }
+}
+
+
+@media screen and (min-width: 380px) and (max-width: 400px){  /* same*/
+    .pourquoiOG {
+    font-size: 37px;
+    margin-top: -7%;
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 450px){  /* same*/
+    .pourquoiOG {
+    font-size: 39px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 460px){  /* same*/
+    .pourquoiOG {
+    font-size: 42px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 470px){  /* same*/
+    .pourquoiOG {
+    font-size: 42.5px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 470px) and (max-width: 480px){  /* same*/
+    .pourquoiOG {
+    font-size: 43px;
+    margin-top: -7%;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 502px){  /* same*/
+    .pourquoiOG {
+    font-size: 44px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 502px) and (max-width: 550px){  /* same */
+    .pourquoiOG {
+    font-size: 48px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px){  /* same*/
+    .pourquoiOG {
+    font-size: 51px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 628px){  /* same*/
+    .pourquoiOG {
+    font-size: 54px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 628px) and (max-width: 700px){  /* same */
+    .pourquoiOG {
+    font-size: 56px;
+    margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px){  /* same */
+    .pourquoiOG {
+    font-size: 58px;
+    margin-top: 7%;
+    }
+}
+
+@media screen and (min-width: 816px) and (max-width: 1024px) {  /* same */
+    .pourquoiOG {
+    margin-top: -10%;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {  /* same */
+    .pourquoiOG {
+    margin-top: 10%;
+    }
+}
+                /* DEBUT BLOC MAISON */
+
+#titremaison {       /*  titre nos domaines d'intervention couleur taille grand ecran */
+    font-size: 21px;
+    color: rgb(248, 82, 16);
+}
+
+#maison {     /* texte maison  */
+    font-family: roboto;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #titremaison {
+        font-size: 17px;
+    }
+    #maison {
+        font-size: 17px;
+    }
+}
+
+.titremaison {  /*deplacement a droite bloc ecriture titremaison  grand ecran */
+    margin-left: -10%;
+}
+
+@media screen and (max-width: 770px){  /* decalage bloc ecriture maison jusqua 770*/
+    .titremaison {
+    margin-left: 2%;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1050px) { /* decalage bloc ecriture maison de 770 a 1050 */
+    .titremaison {
+    margin-left: -2%;
+    }
+}
+
+
+                                    /* FIN BLOC MAISON */
+
+                                    /* DEBUT BLOC OUTIL */
+
+#titreoutil {  /* titre outil couleur taille  */
+    font-size: 21px;
+    color: rgb(248, 82, 16);
+}
+
+
+#outil {       /* texte nos atouts taille style police*/
+    font-family: roboto;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #titreoutil {
+        font-size: 17px;
+    }
+    #outil {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 770px) {  /*decale bloc outil texte jusqua 770 */
+    .titreoutil {
+    margin-left: 2%;
+    }
+}
+
+                    /* FIN BLOC OUTIL */
+
+                    /*DEBUT BLOC DEVIS */
+
+#titredevis {  /* titre devis couleur taille  */
+    font-size: 21px;
+    color: rgb(248, 82, 16);
+}
+
+#devis {    /* texte devis gratuit  */
+    font-family: roboto;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #titredevis {
+        font-size: 17px;
+    }
+    #devis {
+        font-size: 17px;
+    }
+}
+
+
+.titredevis {  /* bloc ecriture devis */
+    margin-left: -10%;
+}
+
+@media screen and (max-width: 770px) {  /* decalage bloc ecriture devis jusqua 770*/
+    .titredevis {
+    margin-left: 2%;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1050px) {  /* decalage bloc ecriture devis de 770 a 1050*/
+    .titredevis {
+    margin-left: -2%;
+    }
+}
+
+                /* FIN BLOC DEVIS */
+
+                /* DEBUT BLOC PLANETE */
+
+#titreplanete {  /* titre planete taille et couleur */
+    font-size: 21px;
+    color: rgb(248, 82, 16);
+}
+
+#planete {       /* texte eco responsable style de police et taille*/
+    font-family: roboto;
+    font-size: 21px;
+    
+} 
+
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #titreplanete {
+        font-size: 17px;
+    }
+    #planete {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 770px) {  /*decalage bloc ecriture planete de 300 a 770 */
+    .titreplanete {  /*bloc ecriture planete */
+    margin-left: 2%;
+    }
+}
+
+@media screen and (min-width: 770px) {  /*decalage bloc ecriture planete a partir de 770*/
+    .titreplanete {  /*bloc ecriture planete */
+    margin-left: -4%;
+    }
+}
+
+                /* FIN BLOC PLANETE */
+
+
+.galeriephoto {      /* gros titre galerie photo */
+    font-family: roboto;
+    margin-top: 7%;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 350px){  /* same*/
+    .galeriephoto {
+    font-size: 34px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px){  /* same*/
+    .galeriephoto {
+    font-size: 38.5px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px){  /* same*/
+    .galeriephoto {
+    font-size: 42.5px;
+    margin-top: 20%;
+    margin-bottom: 9%;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 502px){  /* same*/
+    .galeriephoto {
+    font-size: 46px;
+    margin-top: 20%;
+    margin-bottom: 9%;
+    }
+}
+
+
+@media screen and (min-width: 502px) and (max-width: 550px){  /* same */
+    .galeriephoto {
+    font-size: 52px;
+    margin-top: 15%;
+    margin-bottom: 9%;
+    }
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 600px){  /* same */
+    .galeriephoto {
+    font-size: 54px;
+    margin-top: 15%;
+    margin-bottom: 9%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 628px){  /* same */
+    .galeriephoto {
+    font-size: 57px;
+    margin-top: 15%;
+    margin-bottom: 7%;
+    }
+}
+
+@media screen and (min-width: 628px) and (max-width: 800px){  /* same */
+    .galeriephoto {
+    font-size: 60px;
+    margin-top: 15%;
+    margin-bottom: 7%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){  /* same */
+    .galeriephoto {
+    font-size: 60px;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px){  /* same */
+    .galeriephoto {
+    font-size: 60px;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    }
+}

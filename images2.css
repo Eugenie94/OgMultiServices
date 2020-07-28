@@ -1,0 +1,247 @@
+.logo {    /* logo entreprise */
+    margin-left: -5%;
+    float: left;
+}
+
+
+#logotel {    /* logo tel du header */
+    font-size: 120%;
+    color: rgb(245, 108, 29);
+    text-shadow: none;
+
+}
+
+#mappp {        /* logo map du header */
+    font-size: 170%;
+    color: rgb(245, 108, 29);
+}
+
+       /* DEBUT BLOC MAISON */
+
+#logomaison {   /* taille logo maison grand ecran */
+    height: 115px;
+    width: auto;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #logomaison {
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 770px) {  /*taille logo maison a partir de 770 jusqu'a grand ecran decale */
+    #logomaison {
+    margin-left: 4%;
+    }
+}
+
+        /*FIN BLOC MAISON */
+
+        /*DEBUT BLOC OUTIL */
+
+#logooutil {    /* logo outil taille grand ecran*/
+    height: auto;
+    width: 115px;
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #logooutil {
+        height: 101px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 770px) {  /*decalement logo outil jusqua 770px*/
+    #logooutil {
+    margin-left: 1%;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 900px) {  /*logo outil decalé de 700 a 900 */
+    #logooutil {
+    margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) { /* logo outil décale de 900 a 1000 */
+    #logooutil {
+    margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) { /* logo outil décale de 1000 a 1100 */
+    #logooutil {
+    margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) { /* logo outil décale de 1000 a 1100 */
+    #logooutil {
+    margin-left: 20%;
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) { /* logo planete decale de 1200 a 1300 */
+    #logooutil {
+    margin-left: 25%;
+    }
+}
+
+
+            /* FIN BLOC OUTIL */
+
+            /*DEBUT BLOC DEVIS */
+
+
+#logodevis {  /* logo devis taille grand ecran  */
+    height: auto;
+    width: 110px;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #logodevis {
+        height: 102px;
+        width: auto;
+        margin-left: 2%;
+    }
+}
+
+
+@media screen and (min-width: 770px) {  /* logo devis decaler de 770 a grand ecran */
+    #logodevis {
+    margin-left: 8%;
+    }
+}
+
+                /*FIN BLOC DEVIS */
+
+
+                /*DEBUT BLOC PLANETE */
+
+
+#logoplanete {  /* logo planete taille grand écran */
+    height: auto;
+    width: 115px;
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 440px){  /* decalage bloc ecriture maison jusqua 770*/
+    #logoplanete {
+        height: 98px;
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 770px) {  /*logo planete decalé jusqua 770*/
+    #logoplanete {
+    margin-left: 1%;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 900px) { /* logo planete decalé de 770 a 900 */
+    #logoplanete {
+    margin-left: -3%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) { /* logo planete decale de 900 a 1000 */
+    #logoplanete {
+    margin-left: 7%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) { /* logo planete decale de 1000 a 1100 */
+    #logoplanete {
+    margin-left: 8%;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) { /* logo planete decale de 1100 a 1200 */
+    #logoplanete {
+    margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) { /* logo planete decale de 1200 a 1300 */
+    #logoplanete {
+    margin-left: 17%;
+    }
+}
+
+                /*FIN BLOC PLANETE */
+
+
+.galerie {   /* vitesse agrandissement photo */
+    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.galeriiiie {    /* j'ai creer cette classe pour avoir une marge autour de mes photo */
+    display: flex; /* flex et space around ma permis de faire une marge entre titre et galerie et entre mes photos du bas aussi 
+    sinon il serait collé sur la droite la il y a un espace proportionnelle car ya que 2 photo et ca ma permis que mes photos soit alignés
+    et non l'une en dessous de lautre sur smartphone */
+    justify-content: space-around;  /*espace  autour des photo et donc en haut */
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+
+                
+.galerie:hover {  /* ce qui fait agrandir les photos */
+                
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) { /* faire en sorte que sur petit ecran il n'y a pas d'effet zoom photo */
+
+    .galerie:hover {          /*voir si je le retire ou pas */
+        transform: none;
+    }
+}
+
+
+.fond_image:hover {   /*couleur gris opaque au survol de la souris */
+    opacity: 0.8;
+    -moz-animation-transition: opacity 0.7s;
+    -webkit-animation-transition: opacity 0.7s;
+    -o-animation-transition: opacity 0.7s;
+}
+
+.map {       /* grande carte zone desservies */
+    height: 550px;
+    width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2.5px solid #333;
+    background-image: url("carte.jpg");
+}
+
+
+.tampon {   /* tampon */
+
+    width: 180px;
+    height: auto;  
+    display : block;   /* ce qui permet  */
+    margin-left : auto;   /* de */
+    margin-right : auto;  /* centrer une image */
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) { /*voir comment centrer image */
+    .tampon {
+        width: 20%;
+    }
+}

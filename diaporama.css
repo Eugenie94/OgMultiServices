@@ -1,0 +1,492 @@
+.diaporama {   /*diapo plein ecran */
+    margin: 0 auto;
+    width: 960px;
+    height: 560px;
+    margin-top: 80px;
+    border: 2px solid black;
+    background-image: url("diapo.jpg");
+
+    -webkit-animation-name: diaporama;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    -moz-animation-name: diaporama;
+    -moz-animation-duration: 12s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diaporama;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+/* keyframes pour le site plein écran */
+
+@-webkit-keyframes diaporama {       /*code pour faire defiler les images*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -960px 0px;}
+    35%{background-position: -960px 0px;}
+    36%{background-position: -1920px 0px;}
+    53%{background-position: -1920px 0px;}
+    54%{background-position: -2880px 0px;}
+    71%{background-position: -2880px 0px;}
+    72%{background-position: -3840px 0px;}
+    89%{background-position: -3840px 0px;}
+    90%{background-position: -4800px 0px;}
+    100%{background-position: -4800px 0px;}
+}
+
+@-moz-keyframes diaporama {         /*compatibilité mozilla*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -960px 0px;}
+    35%{background-position: -960px 0px;}
+    36%{background-position: -1920px 0px;}
+    53%{background-position: -1920px 0px;}
+    54%{background-position: -2880px 0px;}
+    71%{background-position: -2880px 0px;}
+    72%{background-position: -3840px 0px;}
+    89%{background-position: -3840px 0px;}
+    90%{background-position: -4800px 0px;}
+    100%{background-position: -4800px 0px;}
+}
+
+@keyframes diaporama {                  
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -960px 0px;}
+    35%{background-position: -960px 0px;}
+    36%{background-position: -1920px 0px;}
+    53%{background-position: -1920px 0px;}
+    54%{background-position: -2880px 0px;}
+    71%{background-position: -2880px 0px;}
+    72%{background-position: -3840px 0px;}
+    89%{background-position: -3840px 0px;}
+    90%{background-position: -4800px 0px;}
+    100%{background-position: -4800px 0px;}
+}
+
+
+
+
+
+
+@media screen and (max-width: 359px) {    /* sous 358 le carousel n'apparait plus */
+    .diaporama {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (min-width: 359px) and (max-width: 415px){ /*adaptation diapo galaxy note 3 - 360x288 */
+    .diaporama {
+
+        margin: 0 auto;
+        width: 100%; 
+        margin-top: -30px;
+        max-width: 360px;
+        min-width: 360px;
+        height: 288px;
+        border: 3px solid black;
+        background-image: url("diapogalaxynote3.jpg");
+    
+        -webkit-animation-name: diaporama;
+        -webkit-animation-duration: 12s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    
+        -moz-animation-name: diaporama;
+        -moz-animation-duration: 12s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: normal;
+    
+        animation-name: diaporama;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+
+        
+@-webkit-keyframes diaporama {       /*code pour faire defiler les images*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -360px 0px;}
+    35%{background-position: -360px 0px;}
+    36%{background-position: -720px 0px;}
+    53%{background-position: -720px 0px;}
+    54%{background-position: -1080px 0px;}
+    71%{background-position: -1080px 0px;}
+    72%{background-position: -1440px 0px;}
+    89%{background-position: -1440px 0px;}
+    90%{background-position: -1800px 0px;}
+    100%{background-position: -1800px 0px;}
+}
+
+@-moz-keyframes diaporama {         /*compatibilité mozilla*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -360px 0px;}
+    35%{background-position: -360px 0px;}
+    36%{background-position: -720px 0px;}
+    53%{background-position: -720px 0px;}
+    54%{background-position: -1080px 0px;}
+    71%{background-position: -1080px 0px;}
+    72%{background-position: -1440px 0px;}
+    89%{background-position: -1440px 0px;}
+    90%{background-position: -1800px 0px;}
+    100%{background-position: -1800px 0px;}
+}
+
+@keyframes diaporama {                  
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -360px 0px;}
+    35%{background-position: -360px 0px;}
+    36%{background-position: -720px 0px;}
+    53%{background-position: -720px 0px;}
+    54%{background-position: -1080px 0px;}
+    71%{background-position: -1080px 0px;}
+    72%{background-position: -1440px 0px;}
+    89%{background-position: -1440px 0px;}
+    90%{background-position: -1800px 0px;}
+    100%{background-position: -1800px 0px;}
+}
+}
+
+
+
+@media screen and (min-width: 415px) and (max-width: 480px){ /* adaptation diapo samsung A70 - 420x336 */
+    .diaporama {
+
+        margin: 0 auto;
+        width: 100%;
+        margin-top: -40px;   
+        min-width: 415px;     
+        max-width: 420px;
+        height: 336px;
+        border: 2px solid black;
+        background-image: url("diapo a70.jpg");
+    
+        -webkit-animation-name: diaporama;
+        -webkit-animation-duration: 12s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    
+        -moz-animation-name: diaporama;
+        -moz-animation-duration: 12s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: normal;
+    
+        animation-name: diaporama;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+
+    @-webkit-keyframes diaporama {      /* code pour faire defiler les images */
+        0%{background-position: 0px 0px;} 
+        17%{background-position: 0px 0px;}
+        18%{background-position: -420px 0px;}
+        35%{background-position: -420px 0px;}
+        36%{background-position: -840px 0px;}
+        53%{background-position: -840px 0px;}
+        54%{background-position: -1260px 0px;}
+        71%{background-position: -1260px 0px;}
+        72%{background-position: -1680px 0px;}
+        89%{background-position: -1680px 0px;}
+        90%{background-position: -2100px 0px;}
+        100%{background-position: -2100px 0px;}
+    }
+    
+    @-moz-keyframes diaporama {       /*  compatibilité mozilla */
+        0%{background-position: 0px 0px;} 
+        17%{background-position: 0px 0px;}
+        18%{background-position: -420px 0px;}
+        35%{background-position: -420px 0px;}
+        36%{background-position: -840px 0px;}
+        53%{background-position: -840px 0px;}
+        54%{background-position: -1260px 0px;}
+        71%{background-position: -1260px 0px;}
+        72%{background-position: -1680px 0px;}
+        89%{background-position: -1680px 0px;}
+        90%{background-position: -2100px 0px;}
+        100%{background-position: -2100px 0px;}
+    }
+    
+    @keyframes diaporama {                  
+        0%{background-position: 0px 0px;} 
+        17%{background-position: 0px 0px;}
+        18%{background-position: -420px 0px;}
+        35%{background-position: -420px 0px;}
+        36%{background-position: -840px 0px;}
+        53%{background-position: -840px 0px;}
+        54%{background-position: -1260px 0px;}
+        71%{background-position: -1260px 0px;}
+        72%{background-position: -1680px 0px;}
+        89%{background-position: -1680px 0px;}
+        90%{background-position: -2100px 0px;}
+        100%{background-position: -2100px 0px;}
+    }
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 655px) { /*adaptation diapo fenetre réduite pc */
+    .diaporama {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: -40px;
+        min-width: 480px;
+        max-width: 480px;
+        height: 383px;
+        border: 2px solid black;
+        background-image: url("diapofenetrereduite.jpg");
+    
+        -webkit-animation-name: diaporama;
+        -webkit-animation-duration: 12s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    
+        -moz-animation-name: diaporama;
+        -moz-animation-duration: 12s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: normal;
+    
+        animation-name: diaporama;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+
+    
+@-webkit-keyframes diaporama {       /*code pour faire defiler les images*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -480px 0px;}
+    35%{background-position: -480px 0px;}
+    36%{background-position: -960px 0px;}
+    53%{background-position: -960px 0px;}
+    54%{background-position: -1440px 0px;}
+    71%{background-position: -1440px 0px;}
+    72%{background-position: -1920px 0px;}
+    89%{background-position: -1920px 0px;}
+    90%{background-position: -2400px 0px;}
+    100%{background-position: -2400px 0px;}
+}
+
+@-moz-keyframes diaporama {         /*compatibilité mozilla*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -480px 0px;}
+    35%{background-position: -480px 0px;}
+    36%{background-position: -960px 0px;}
+    53%{background-position: -960px 0px;}
+    54%{background-position: -1440px 0px;}
+    71%{background-position: -1440px 0px;}
+    72%{background-position: -1920px 0px;}
+    89%{background-position: -1920px 0px;}
+    90%{background-position: -2400px 0px;}
+    100%{background-position: -2400px 0px;}
+}
+
+@keyframes diaporama {                  
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -480px 0px;}
+    35%{background-position: -480px 0px;}
+    36%{background-position: -960px 0px;}
+    53%{background-position: -960px 0px;}
+    54%{background-position: -1440px 0px;}
+    71%{background-position: -1440px 0px;}
+    72%{background-position: -1920px 0px;}
+    89%{background-position: -1920px 0px;}
+    90%{background-position: -2400px 0px;}
+    100%{background-position: -2400px 0px;}
+}
+}
+
+
+
+
+@media screen and (min-width: 655px) and (max-width: 764px){ /*a changer */
+    
+    .diaporama {
+
+        margin: 0 auto;
+        margin-top: -70px;
+        min-width: 650px;
+        max-width: 650px;
+        height: 500px;   /* a modifier */
+        border: 2px solid black;
+        background-image: url("diap.jpg");
+    
+        -webkit-animation-name: diaporama;
+        -webkit-animation-duration: 12s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    
+        -moz-animation-name: diaporama;
+        -moz-animation-duration: 12s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: normal;
+    
+        animation-name: diaporama;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+
+        
+@-webkit-keyframes diaporama {       /*code pour faire defiler les images*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -650px 0px;}
+    35%{background-position: -650px 0px;}
+    36%{background-position: -1300px 0px;}
+    53%{background-position: -1300px 0px;}
+    54%{background-position: -1950px 0px;}
+    71%{background-position: -1950px 0px;}
+    72%{background-position: -2600px 0px;}
+    89%{background-position: -2600px 0px;}
+    90%{background-position: -3200px 0px;}
+    100%{background-position: -3200px 0px;}
+}
+
+@-moz-keyframes diaporama {         /*compatibilité mozilla*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -650px 0px;}
+    35%{background-position: -650px 0px;}
+    36%{background-position: -1300px 0px;}
+    53%{background-position: -1300px 0px;}
+    54%{background-position: -1950px 0px;}
+    71%{background-position: -1950px 0px;}
+    72%{background-position: -2600px 0px;}
+    89%{background-position: -2600px 0px;}
+    90%{background-position: -3200px 0px;}
+    100%{background-position: -3200px 0px;}
+}
+
+@keyframes diaporama {                  
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -650px 0px;}
+    35%{background-position: -650px 0px;}
+    36%{background-position: -1300px 0px;}
+    53%{background-position: -1300px 0px;}
+    54%{background-position: -1950px 0px;}
+    71%{background-position: -1950px 0px;}
+    72%{background-position: -2600px 0px;}
+    89%{background-position: -2600px 0px;}
+    90%{background-position: -3200px 0px;}
+    100%{background-position: -3200px 0px;}
+}
+}
+
+
+
+
+
+@media screen and (min-width: 764px) and (max-width: 960px){ /* adaptation de ipad a grand écran */
+    
+    .diaporama {
+
+        margin: 0 auto;
+        margin-top: -70px;
+        min-width: 764px;
+        max-width: 764px;
+        width: 100%;
+        height: 600px;
+        border: 2px solid black;
+        background-image: url("diapoipad.jpg");
+    
+        -webkit-animation-name: diaporama;
+        -webkit-animation-duration: 12s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    
+        -moz-animation-name: diaporama;
+        -moz-animation-duration: 12s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: normal;
+    
+        animation-name: diaporama;
+        animation-duration: 12s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+
+        
+@-webkit-keyframes diaporama {       /*code pour faire defiler les images*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -768px 0px;}
+    35%{background-position: -768px 0px;}
+    36%{background-position: -1536px 0px;}
+    53%{background-position: -1536px 0px;}
+    54%{background-position: -2304px 0px;}
+    71%{background-position: -2304px 0px;}
+    72%{background-position: -3072px 0px;}
+    89%{background-position: -3072px 0px;}
+    90%{background-position: -3840px 0px;}
+    100%{background-position: -3840px 0px;}
+}
+
+@-moz-keyframes diaporama {         /*compatibilité mozilla*/
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -768px 0px;}
+    35%{background-position: -768px 0px;}
+    36%{background-position: -1536px 0px;}
+    53%{background-position: -1536px 0px;}
+    54%{background-position: -2304px 0px;}
+    71%{background-position: -2304px 0px;}
+    72%{background-position: -3072px 0px;}
+    89%{background-position: -3072px 0px;}
+    90%{background-position: -3840px 0px;}
+    100%{background-position: -3840px 0px;}
+}
+
+@keyframes diaporama {                  
+    0%{background-position: 0px 0px;} 
+    17%{background-position: 0px 0px;}
+    18%{background-position: -768px 0px;}
+    35%{background-position: -768px 0px;}
+    36%{background-position: -1536px 0px;}
+    53%{background-position: -1536px 0px;}
+    54%{background-position: -2304px 0px;}
+    71%{background-position: -2304px 0px;}
+    72%{background-position: -3072px 0px;}
+    89%{background-position: -3072px 0px;}
+    90%{background-position: -3840px 0px;}
+    100%{background-position: -3840px 0px;}
+}
+}
+
+
+

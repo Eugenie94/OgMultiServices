@@ -1,0 +1,618 @@
+.column:not(.no-hover):hover{
+    transform: none;
+}
+
+        /*DEBUT BLOC GRAVATS page 1 */
+
+.gravats {  /*logo gravats  */
+    width: 75%;
+    height: auto;
+    margin-top: -5%;
+} 
+        
+        
+.gravats1 { /*photo gravat 2eme*/
+    margin-top: 1%;
+    width: 310px;
+    height: 250px;
+    margin-right: 2%;
+}                     
+        
+          
+
+        @media screen and (min-width: 300px) and (max-width: 450px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+            .gravats {  /*logo gravats*/
+                width: 30%;
+                height: 15%;
+                margin-left: 2%;
+            } 
+        
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 769px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+             .gravats { /* logo gravats */
+                width: 23%;
+                height: 10%;
+                margin-left: 2%;
+            }   
+        
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1000px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+            .gravats { /* logo gravats */
+               width: 87%;
+               height: auto;
+               margin-left: 2%;
+           }   
+       
+       }
+
+       @media screen and (max-width: 770px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+            
+        .gravats1 {  /*photo gravats 1ere */
+            display: none;
+            
+        }
+    }
+
+    @media screen and (min-width: 770px) and (max-width: 870px) {   /*adaptation photo responsive grand ecran reduction */    
+ 
+        .gravats1 { /*photo gravat 2eme*/
+            margin-top: 5%;
+            width: 176.5px;
+            height: 150px;
+            margin-right: 2%;
+        }                     
+    }
+
+
+    @media screen and (min-width: 870px) and (max-width: 1000px) {   /*adaptation photo responsive grand ecran reduction */
+  
+        .gravats1 { /*photo gravat 2eme*/
+            margin-top: 8%;
+            width: 200px;
+            height: 170px;
+            margin-right: 2%;
+        }                     
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1216px) { /*adaptation photo responsive grand ecran reduction */
+  
+        .gravats1 { /*photo gravat 2eme*/
+            margin-top: 6%;
+            width: 220px;
+            height: 190px;
+            margin-right: 2%;
+        }                     
+    }
+
+    @media screen and (min-width: 1216px) and (max-width: 1408px) { /*adaptation photo responsive grand ecran reduction a partir de 1408 les photos passe en dessous*/
+                
+        .gravats1 { /*photo gravat 2eme*/
+            margin-top: 2%;
+            width: 260px;
+            height: 230px;
+            margin-right: 2%;
+        }                     
+    }
+
+
+
+        /*FIN BLOC GRAVATS*/
+        
+        
+      /*DEBUT BLOC DEMOLITION*/
+
+.demolition {   /* logo demolition */
+    width: 80%;
+    height: auto;
+    margin-top: -10%;
+}
+
+.demolition1 {  /*photo demolition */
+    width: 310px;
+    height: 250px;
+    margin-right: 2%;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 450px) {  /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .demolition {  /* logo demolition */ 
+        width: 32%;
+        height: 16%;
+        margin-left: 1%;
+        
+    }  
+}
+
+@media screen and (min-width: 450px) and (max-width: 769px) { /* minimum arrivé a 430 les images disparaisse et le logo remonte aussi */
+    
+    .demolition {  /* logo demolition */
+        width: 23%;
+        height: 10%;
+        margin-left: 1%;
+
+    }  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1216px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .demolition { /* logo demolition*/
+       width: 80%;
+       height: auto;
+       margin-left: -20%;
+   } 
+}
+
+@media screen and (min-width: 1409px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .demolition { /* logo demolition*/
+       width: 80%;
+       height: auto;
+       margin-left: 13%;
+   } 
+}
+
+@media screen and (max-width: 770px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+       .demolition1 {  /*photo demolition*/
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 870px) {   /*adaptation photo responsive grand ecran reduction */
+            
+    .demolition1 {  /*photo demolition*/
+        margin-top: 1%;
+        width: 176.5px;
+        height: 150px;
+        margin-right: 2%;
+    }                     
+}
+
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {   /*adaptation photo responsive grand ecran reduction */
+            
+    .demolition1 {  /*photo demolition*/
+        margin-top: 1%;
+        width: 200px;
+        height: 170px;
+        margin-right: 2%;
+    }                     
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1216px) { /*adaptation photo responsive grand ecran reduction */
+    
+    .demolition1 {  /*photo demolition*/
+        margin-top: 1%;
+        width: 220px;
+        height: 190px;
+        margin-right: 2%;
+        
+    }                     
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1408px) { /*adaptation photo responsive grand ecran reduction a partir de 1408 les photos passe en dessous*/
+    
+    .demolition1 {  /*photo demolition*/
+        margin-top: -1%;
+        width: 260px;
+        height: 230px;
+        margin-right: 2%;
+    }                     
+}
+
+                /*FIN BLOC DEMOLITION */
+
+
+                 /* DEBUT BLOC DEBARRAS page 1 */
+         
+.debarras { /* logo debarras */
+    width: 80%;
+    height: auto;
+}
+  
+.debarras1 { /* photo 2 */
+    width: 310px;
+    height: 250px;
+    margin-top: 7%;
+    margin-right: 2%;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 450px) {  /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .debarras {   /* logo debarras  */
+        width: 30%;
+        height: 15%;
+        margin-left: 3%;
+        margin-top: 7%;
+     
+    }  
+}
+
+@media screen and (min-width: 450px) and (max-width: 769px) { /* minimum arrivé a 430 les images disparaisse et le logo remonte aussi */
+    
+    .debarras {   /* logo debarras  */
+        width: 25%;
+        height: 15%;
+        margin-left: 3%;
+        margin-top: 7%;
+     
+    }  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .débarras { /* logo debarras*/
+       width: 100%;
+       height: auto;
+       margin-left: 2%;
+   } 
+
+}
+
+@media screen and (max-width: 770px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .debarras1 {  /*photo debarras 1ere */
+        
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 870px) {   /*adaptation photo responsive grand ecran reduction */
+            
+    .debarras1 {  /*photo debarras 1ere */
+        margin-top: 10%;
+        width: 176.5px;
+        height: 150px;
+        margin-right: 2%;
+    }                     
+}
+
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {   /*adaptation photo responsive grand ecran reduction */
+            
+    .debarras1 {  /*photo debarras 1ere */
+        margin-top: 10%;
+        width: 200px;
+        height: 170px;
+        margin-right: 2%;
+    }                     
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1216px) { /*adaptation photo responsive grand ecran reduction */
+    
+    .debarras1 {  /*photo debarras 1ere */
+        margin-top: 10%;
+        width: 220px;
+        height: 190px;
+        margin-right: 2%;
+        
+    }                     
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1408px) { /*adaptation photo responsive grand ecran reduction a partir de 1408 les photos passe en dessous*/
+    
+    .debarras1 {  /*photo debarras 1ere */
+        margin-top: 10%;
+        width: 260px;
+        height: 230px;
+        margin-right: 2%;
+    }                     
+}
+                    /*FIN BLOC DEBARRAS*/
+
+
+                    /*DEBUT BLOC VERT*/
+
+.verts {  /*logo vert */
+    width: 75%;
+    height: auto;
+    margin-top: -6%;
+    margin-left: 20%;
+}
+ 
+.verts1 {  /* photo vert */
+    width: 310px;
+    height: 250px;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 450px) {  /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .verts {  /* logo vert */
+        width: 28%;
+        height: 15%;
+        margin-left: 2%;
+        margin-top: -2%;
+         
+    }   
+}
+
+@media screen and (min-width: 450px) and (max-width: 769px) { /* minimum arrivé a 430 les images disparaisse et le logo remonte aussi */
+    
+    .verts {  /* logo vert */
+        width: 23%;
+        height: 10%;
+        margin-left: 2%;
+        margin-top: -2%;
+         
+    }   
+}
+
+@media screen and (min-width: 769px) and (max-width: 830px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .verts { /* logo vert*/
+       width: 84%;
+       height: auto;
+       margin-left: -18%;
+   } 
+
+}
+
+@media screen and (min-width: 830px) and (max-width: 1000px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .verts { /* logo vert*/
+       width: 84%;
+       height: auto;
+       margin-left: -15%;
+   } 
+
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1216px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .verts { /* logo vert*/
+       width: 82%;
+       height: auto;
+       margin-left: -20%;
+   } 
+
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1408px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .verts { /* logo vert*/
+       width: 80%;
+       height: auto;
+       margin-left: 2%;
+   } 
+}
+
+
+@media screen and (min-width: 1408px) and (max-width: 1408px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .verts { /* logo vert*/
+       width: 80%;
+       height: auto;
+       margin-left: -8%;
+   } 
+}
+
+
+@media screen and (max-width: 770px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    
+    .verts1 {  /*photo vert 1ere */
+        
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 870px) {   /*adaptation photo responsive grand ecran reduction */
+            
+    .verts1 {  /*photo vert 1ere */
+        width: 176.5px;
+        height: 150px;
+        margin-right: 2%;
+    }                     
+}
+
+
+@media screen and (min-width: 870px) and (max-width: 1000px) {   /*adaptation photo responsive grand ecran reduction */
+            
+    .verts1 {  /*photo vert 1ere */
+        margin-top: 5%;
+        width: 200px;
+        height: 170px;
+        margin-right: 2%;
+    }                     
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1216px) { /*adaptation photo responsive grand ecran reduction */
+    
+    .verts1 {  /*photo vert 1ere */
+        margin-top: 6%;
+        width: 220px;
+        height: 190px;
+        margin-right: 2%;
+        
+    }                     
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1408px) { /*adaptation photo responsive grand ecran reduction a partir de 1408 les photos passe en dessous*/
+    
+    .verts1 {  /*photo vert 1ere */
+        margin-top: 4%;
+        width: 260px;
+        height: 230px;
+        margin-right: 2%;
+    }                     
+}
+
+
+
+                    /*FIN BLOC VERT */
+
+
+                  /*DEBUT BLOC NETTOYAGE page 1 */
+
+.nettoyage {
+
+    width: 70%;
+    height: auto;
+    margin-top: -6%;
+}
+
+.nettoyage1 {      /* photo nettoyage 2eme */
+    width: 310px;
+    height: 250px;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 450px) {  /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+       
+    .nettoyage {   /* logo nettoyage*/
+        width: 30%;
+        height: 1%;
+        margin-left: 2%;
+        margin-top: 4%;
+  
+    }   
+}
+
+@media screen and (min-width: 450px) and (max-width: 769px) { /* minimum arrivé a 430 les images disparaisse et le logo remonte aussi */
+    
+      
+    .nettoyage {   /* logo nettoyage*/
+        width: 25%;
+        height: 1%;
+        margin-left: 2%;
+        margin-top: 4%;
+  
+    }   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    .nettoyage { /*logo nettoyage*/
+       width: 75%;
+       height: auto;
+       margin-left: 2%;
+       margin-top: -15%;
+   } 
+
+}
+
+
+@media screen and (max-width: 770px) {   /* minimum arrivé a 750 les photo retrecit et le logo remonte un peu */
+
+    
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 870px) {   /*adaptation photo responsive grand ecran reduction */    
+ 
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        width: 176.5px;
+        height: 150px;
+        margin-right: 2%;
+        margin-top: 10%;
+    }                     
+}
+
+
+@media screen and (min-width: 870px) and (max-width: 900px) {   /*adaptation photo responsive grand ecran reduction */
+
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        width: 200px;
+        height: 170px;
+        margin-right: 2%;
+        margin-top: 12%;
+    }                     
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 950px) {   /*adaptation photo responsive grand ecran reduction */
+
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        width: 200px;
+        height: 170px;
+        margin-right: 2%;
+        margin-top: 10%;
+    }                     
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {   /*adaptation photo responsive grand ecran reduction */
+
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        width: 200px;
+        height: 170px;
+        margin-right: 2%;
+        margin-top: 8%;
+    }                     
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1216px) { /*adaptation photo responsive grand ecran reduction */
+
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        margin-top: 6%;
+        width: 220px;
+        height: 190px;
+        margin-right: 2%;
+    }                     
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1408px) { /*adaptation photo responsive grand ecran reduction a partir de 1408 les photos passe en dessous*/
+            
+    .nettoyage1 {  /*photo nettoyage 1ere */
+        margin-top: 2%;
+        width: 260px;
+        height: 230px;
+        margin-right: 2%;
+    }                     
+}
+
+
+                    /*FIN BLOC NETTOYAGE */
+                
+                    
+
+.maps {       /* grande carte zone desservies  */
+    margin: auto;
+    width: 70%;
+    margin-top: 4%;
+    border: 2.5px solid #333;
+}
+
+@media screen and (max-width: 750px) {   /*zone map plus large */
+    .maps {
+        margin: auto;
+        width: 92%;
+        margin-top: 4%;
+        border: 2.5px solid #333;
+    }
+
+}
+@media screen and (max-width: 449px) {   /*same */
+    .maps {
+        margin: auto;
+        width: 92%;
+        margin-top: 4%;
+        border: 2.5px solid #333;
+    }
+
+}

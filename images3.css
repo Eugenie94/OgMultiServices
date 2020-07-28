@@ -1,0 +1,159 @@
+                    /* BLOC IMAGE RONDE */
+
+.imageconf {      /*image main serrer */
+    max-width: 60%;
+    height: auto;
+    display: block;   /*centre l'image au milieu de div */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imagereact {      /*image reveil */
+    max-width: 60%;
+    height: auto;
+    display: block;        /*centre l'image au milieu de div */
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.imagequalité {     /*image pouce */
+    max-width: 60%;
+    height: auto;
+    display: block;       /*centre l'image au milieu de div */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+                /*FIN BLOC IMAGE RONDE */
+
+                /*BLOC LOGO ROND ET TITRE ROND */
+
+
+.blocrond {    /* le gros bloc columns qui englobe toutes mes div logo */
+    margin-top: 10%;               /*espace entre le haut et bloc rond */
+    display: flex;
+    justify-content: space-around;
+}
+    
+           
+
+.titresousblocrond {        /*titre en dessous des logo rond*/
+    color: rgb(71, 71, 71);
+    line-height: 90px;
+    font-size: 25px;
+    font-family: roboto;
+    text-transform: uppercase;  /*transforme titre bloc rond en majuscules */
+    margin-bottom: 40%;      /*marge entre titre bloc rond et nos partenaire titre*/
+    text-align: center;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 330px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 40px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 360px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 50px;
+        font-size: 15px;
+    }
+}
+ 
+@media screen and (min-width: 400px) and (max-width: 420px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 450px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 50px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 480px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 60px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 550px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 70px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 600px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 70px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 70px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 80px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 80px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 90px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1000px) {  /*responsive texte rond*/
+    .titresousblocrond {
+        line-height: 90px;
+        font-size: 25px;
+    }
+}
+
+            /*FIN BLOC LOGO ROND ET TITRE ROND */
+             
+            
+            /*DEBUT LOGO PARTENAIRE */
+
+.logopartenaire {    /*class pour ciblé les images en totalité */
+    display: flex;
+    justify-content: space-around;
+}
+
+.logop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+            /* FIN LOGO PARTENAIRE */

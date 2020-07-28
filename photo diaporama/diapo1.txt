@@ -1,0 +1,38 @@
+    -webkit-animation-name: diaporama;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+
+    -moz-animation-name: diaporama;
+    -moz-animation-duration: 9s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+
+    animation-name: diaporama;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+
+@-webkit-keyframes diaporama {
+    0%{background-image: url("Screenshot_20200211_010621.jpg");}
+    33%{background-image: url("Screenshot_20200211_230449.jpg");}
+    66%{background-image: url("Screenshot_20200211_010659.jpg");}
+}
+
+@-moz-keyframes diaporama {
+    0%{background-image: url("Screenshot_20200211_010621.jpg");}
+    33%{background-image: url("Screenshot_20200211_230449.jpg");}
+    66%{background-image: url("Screenshot_20200211_010659.jpg");}
+}
+
+@keyframes diaporama {
+    0%{background-image: url("Screenshot_20200211_010621.jpg");}
+    33%{background-image: url("Screenshot_20200211_230449.jpg");}
+    66%{background-image: url("Screenshot_20200211_010659.jpg");}
+}
