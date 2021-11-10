@@ -18,3 +18,6 @@ Les technologies que j'ai utilisées :
 - Bulma
 
 
+------------------------------------ Aperçu de la page "Notre savoir faire" ------------------------------------
+
+![img1](https://user-images.githubusercontent.com/58372973/141208169-5713a1e1-4351-40d2-9cef-e9e7b23563df.png)
