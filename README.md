@@ -20,4 +20,5 @@ Les technologies que j'ai utilisées :
 
 ------------------------------------ Aperçu de la page "Notre savoir faire" ------------------------------------
 
-![img1](https://user-images.githubusercontent.com/58372973/141208169-5713a1e1-4351-40d2-9cef-e9e7b23563df.png)
+![screencapture-og-multi-services-notre-savoir-faire-html-2021-11-10-23_35_06](https://user-images.githubusercontent.com/58372973/141208234-3edccbd2-7cc7-4335-9657-e6ce63cfcff1.png)
+
