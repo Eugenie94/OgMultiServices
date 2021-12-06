@@ -23,6 +23,7 @@ header {   /*ombre en dessous de mon layout header */
     float: right;
 }
 
+
 @media screen and (min-width: 300px) and (max-width: 500px) { 
 
     .m-right {   /*responsive bloc droite de mon header */
