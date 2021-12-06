@@ -18,3 +18,7 @@ Les technologies que j'ai utilisées :
 - Bulma
 
 
+------------------------------------ Aperçu de la page "Notre savoir faire" ------------------------------------
+
+![screencapture-og-multi-services-notre-savoir-faire-html-2021-11-10-23_35_06](https://user-images.githubusercontent.com/58372973/141208234-3edccbd2-7cc7-4335-9657-e6ce63cfcff1.png)
+
