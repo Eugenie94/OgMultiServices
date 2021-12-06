@@ -4,7 +4,7 @@
     height: 560px;
     margin-top: 80px;
     border: 2px solid black;
-    background-image: url("diapo.jpg");
+    background-image: url("images/diapo.jpg");
 
     -webkit-animation-name: diaporama;
     -webkit-animation-duration: 12s;
